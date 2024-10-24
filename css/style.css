@@ -9,6 +9,24 @@
 }
 
 @media screen and (min-width: 900px) {
+    header {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+
+    .nav-links {
+        flex-direction: row;
+    }
+
+    /*step 12*/
+    .card {
+        flex-basis: 275px;
+    }
+
+    .pricing {
+        align-items: center;
+    }
     
 }
 
@@ -16,6 +34,7 @@
     
 }
 
-@media print and (orientation: portrait) {
+@media print  {
     
 }
+
