@@ -1,0 +1,21 @@
+.card {
+    flex-basis: 450px;
+}
+
+.pricing {
+    display: flex;
+    flex-flow: row wrap; 
+    justify-content: center;
+}
+
+@media screen and (min-width: 900px) {
+    
+}
+
+@media all and (prefers-reduced-motion: reduce) {
+    
+}
+
+@media print and (orientation: portrait) {
+    
+}
