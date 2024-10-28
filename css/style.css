@@ -30,12 +30,16 @@ body {
 header {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 /*step 4*/
 .nav_links {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 /*step 5*/
