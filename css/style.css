@@ -31,11 +31,11 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
 /*step 4*/
 .nav_links {
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -91,10 +91,6 @@ a:visited {
         justify-content: space-between;
     }
 
-    .nav-links {
-        flex-direction: row;
-    }
-
     /*step 12*/
     .card {
         flex-basis: 275px;
@@ -113,6 +109,10 @@ a:visited {
 
     main {
         margin-top: 100px;
+    }
+
+    .nav_links {
+        flex-direction: row;
     }
 }
 
