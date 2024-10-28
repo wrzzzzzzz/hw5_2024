@@ -36,7 +36,6 @@ header {
 
 /*step 4*/
 .nav_links {
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -141,6 +140,7 @@ a:visited {
     nav {
         width: 100%;
     }
+
     .nav_links {
         width: 100%;
         display: flex;
@@ -162,7 +162,7 @@ a:visited {
     }
 
     /*step 20*/
-    .gallery{
+    .gallery {
         display: none;
     }
 
